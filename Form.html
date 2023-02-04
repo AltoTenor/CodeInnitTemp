@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Send Email</title>
+  </head>
+  <body>
+    <form action="/api/send_email" method="post">
+      <input type="email" name="recipient" placeholder="Recipient's email address" required>
+      <br><br>
+      <input type="text" name="subject" placeholder="Subject" required>
+      <br><br>
+      <textarea name="body" placeholder="Email body" required></textarea>
+      <br><br>
+      <button type="submit">Send Email</button>
+    </form>
+  </body>
+</html>
